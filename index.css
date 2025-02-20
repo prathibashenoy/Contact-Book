@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:olivedrab;
+}
+
+header h1{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contact-card{
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: auto;
+    
+    display:  grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 40px;
+
+}
+
+.contact{
+    background-color:darkseagreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     
+    width: 400px;
+    height: 280px;
+    
+    border-style: solid;
+    border-radius: 45px;
+    row-gap: 7px;
+}
+
+.profile{
+    width: 150px;
+    height: 150px;
+}
+
